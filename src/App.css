@@ -62,6 +62,21 @@
   content: "×";
 }
 
+.Game-ResetButton {
+  margin: 10px;
+  padding: 4px;
+  border-radius: 3px;
+  color: white;
+}
+
+.Game-ResetButton-Finished {
+  background-color: green;
+}
+
+.Game-ResetButton-InProgress {
+  background-color: red;
+}
+
 @keyframes animated {
   50% {
     transform: rotateY(180deg);

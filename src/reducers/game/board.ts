@@ -16,6 +16,9 @@ export const reducer = (
       const { column, color } = action.payload;
       return dropCoin(state, column, color);
 
+    case "RESET_BOARD":
+      return getInitialBoard();
+
     default:
       return state;
   }
